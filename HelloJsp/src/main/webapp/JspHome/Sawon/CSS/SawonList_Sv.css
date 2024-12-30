@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* -----------------------------------------------------------------
+	Top/Middle/Bottom 고정 영역 스타일시트
+   ----------------------------------------------------------------- */
+.Top-Fixed {
+	background-color: #f8f9fa;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	padding: 0;
+	position: fixed;
+	top: 0; left: 0;
+	width: 100%;
+}
+
+.Middle-Fixed {
+	height: calc(100vh - 220px);
+	margin-top: 120px;
+	margin-bottom: 100px;
+	padding: 20px;
+	overflow-y: auto;
+}
+
+.Bottom-Fixed {
+	background-color: #f8f9fa;
+	bottom: 0; left: 0;
+	box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+	padding: 0;
+	position: fixed;
+	width: 100%;
+}
+/* -----------------------------------------------------------------
+	HTML Page 스타일시트
+   ----------------------------------------------------------------- */
+.body {
+	padding: 30px;
+}
+
+.Line {
+	border: 0px;
+	background-color: black;
+	box-shadow: 5px 5px 10px gray;
+	height: 2px;
+}
+
+.Title {
+	color: black;
+	font-size: 24px; font-weight: bold;
+	text-align: center; text-shadow: 5px 5px 10px darkgray;
+}
+
+.Label {
+	color: teal;
+	cursor: pointer;
+	font-size: 16px; font-weight: bold;
+}
+
+.NumData {
+	font-size: 16px; font-weight: bold;
+	height: 25px;
+	width: 100px;
+}
+
+.RdoData {
+	accent-color: black;
+	cursor: pointer1;
+	height: 20px;
+	vertical-align: top;
+	width: 30px;
+}
+
+.CmbData {
+	cursor: pointer;
+	font-size: 16px; font-weight: bold;
+	height: 30px;
+	text-align: center;
+	width: 100px;
+}
+
+.RowsData {
+	color: blue;
+	font-size: 16px; font-weight: bold;
+}
+
+.Submit {
+	background-color: lightgray;
+	border: 3px; box-shadow: 5px 5px 10px gray;
+	cursor: pointer;
+	font-size: 16px; font-weight: bold;
+	height: 30px;
+	width: 250px;
+}
+
+.Link {
+	color: darkorange;
+	font-size: 16px; font-weight: bold;
+	text-align: center; text-decoration: none; text-shadow: 5px 5px 10px darkgray;
+}
+
+.Table {
+	border-collapse: collapse;
+	margin: 0px;
+	width: 100%;
+}
+
+.TableHead {
+	border-bottom: 1px solid darkgray;
+	color: maroon;
+	font-size: 20px; font-weight: bold;
+	height: 50px;
+	text-shadow: 5px 5px 10px darkgray;
+}
+
+.TableRow {
+	border-bottom: 1px solid darkgray;
+	color: black;
+	font-size: 18px; font-weight: bold;
+	height: 35px;
+	text-align: center;
+}
+/* ----------------------------------------------------------------- */

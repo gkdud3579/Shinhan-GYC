@@ -1,0 +1,37 @@
+@charset "UTF-8";
+		/* -----------------------------------------------------------------
+			HTML Page 스타일시트
+		   ----------------------------------------------------------------- */
+		.Body {
+			margin: 100px auto;
+			width: 500px;
+		}
+		
+		.Line {
+			border: 0px;
+			height: 3px;
+			background-color: black;
+			box-shadow: 5px 5px 10px gray;
+		}
+		
+		.Title {
+			color: blue;
+			font-size: 30px; font-weight: bold;
+			text-align: center; text-shadow: 5px 5px 10px darkgray;
+		}
+		
+		.Menu {
+			height: 270px;
+			font-size: 24px; font-weight: bold;
+			text-shadow: 5px 5px 10px darkgray;
+		}
+		
+		.MenuItem {
+			height: 60px;
+		}
+		
+		.Link {
+			color: teal;
+			text-decoration: none;
+		}
+        /* ----------------------------------------------------------------- */
